@@ -518,6 +518,7 @@ text-align: center;
 color: #192537;
 text-decoration: underline;
 
+transition-property: height;
 }
 
 .productos-uno div{
@@ -600,22 +601,78 @@ width: 1423px;
 transition-property: height;
 }
 
-.compraas:hover{
 
+
+
+
+
+.lomejor:hover{
     height: 100px;
-    width: 1423px;
-color: #d1d1d1;
+    color: #ffffff;
     background-color: #192537;
 transition-property: height;
-transition-duration: 1s;
-transition-timing-function: ease-in-out;
+transition: 1s ease-in-out;
+}
+
+.grid-container{
+
+
 
 }
 
 
-@keyframes animacion {
+
+@media (max-width: 767px) {
+
+.headerr{
+   
+}
+
+.primeraseccion{
+    display: none;
 
 }
+
+.segundaseccion{
+   height: 700px;
+   background-color: #192537;
+}
+
+.terceraseccion{
+  height: 300px;
+}
+
+.pie{
+   
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 810px) {
+    .segundaseccion{
+        height: 700px;
+        background-color: #192537;
+    }
+}
+
+
+
+@media (max-width: 545px) {
+
+.headerr{
+    display: inline-block;
+}
+
+.segundaseccion{
+    height: 1000px;
+}
+
+.terceraseccion{
+    height: 350px;
+}
+
+}
+
 
 
 
