@@ -1,0 +1,618 @@
+*{margin: 0;
+box-sizing: border-box;
+padding: 0;
+} 
+
+  
+ 
+
+
+  
+                                    /**header*/
+
+
+
+header{
+position: sticky;
+top: 0;
+display: flex;
+height: 83px;
+justify-content: space-between;
+background-color: #192537;
+align-items: center;
+padding: 10px;
+z-index: 1;
+}
+   
+header nav a{
+    text-decoration: none;
+padding-right: 25px;
+
+}
+
+header nav a:hover{
+    color: #b09e80;
+}
+
+.nombre{
+
+align-items: center;
+
+}
+
+.nombre h2{
+    color: #ffffff;
+    position: relative;
+    left: 80px;
+}
+
+
+.nombre h3{
+    color: #b09e80;
+    position: relative;
+    left: 103px;
+}
+
+
+
+a:visited{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+                                    /*main*/
+
+
+
+
+.primeraseccion{
+
+ background-image:url(../img/Banner\ web\ horizontal\ Con\ marca\ Decoración\ de\ interiores\ \ delicado\ colores\ cálidos.png);
+
+
+
+
+
+
+}
+
+.primeraseccion{
+border: 1px solid rgb(255, 255, 255);
+    height: calc(95vh - 83px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+}
+
+.primeraseccion h2 a{
+    font-size: 40px;
+    color: #192537;
+    text-decoration: none;
+}
+
+
+.segundaseccion > div{
+background-color: #192537;
+color: rgb(255, 255, 255);
+height: 48vh;
+
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+animation-name: productos;
+animation-duration: 2s;
+position: relative;
+
+}
+
+.segundaseccion div div{
+display: inline-block;
+text-align: center;
+border: 2px ;
+margin: 30px;
+border: 2px solid white;
+
+
+}
+
+.segundaseccion div div img{
+   
+    width: 200px;
+    height: 250px;
+}
+
+.segundaseccion div div a{
+text-decoration: none;
+background-color: #ffffff;
+color: #192537;
+padding: 5px 10px 5px 10px;
+
+}
+
+.segundaseccion div h4{
+
+    margin: 8px;
+}
+
+.segundaseccion h3{
+
+    text-align: center;
+    background-color: #192537;
+    color: #ffffff;
+    font-size: 35px;
+text-decoration: underline;
+}
+
+.terceraseccion{
+    color: #ffffff;
+    background-color: #192537;
+    height: 30vh;
+    text-align: center;
+    
+}
+                                    /*footer*/
+
+.terceraseccion div p{
+
+    background-color: #192537;
+}
+
+.terceraseccion div h2{
+    background-color: #192537;
+}
+
+.espaciovacio{
+    height: 20vh;
+    background-color: #192537;
+}
+
+ .pie{
+    color: #192537;
+    background-color: #ffffff;
+
+ }                                  
+
+.pie div div p a{
+color: #192537;
+
+}
+
+.pie p a img{
+    height: 25px;
+width: 25px;
+}
+
+ #fijado img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    /* box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75); */
+    /* -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75); */
+    
+right: 25px;
+bottom: 25px;
+ }
+
+
+.primer-apartado{
+
+}
+
+.envios{
+text-align: left;
+
+}
+
+  .cambios{
+text-align: right;
+
+  }                                         
+
+.servicio{
+text-align: center;
+
+}
+
+.segundo-apartado{
+
+}
+
+.ingresaemail{
+
+
+}
+
+.conocemas{
+text-align: right;
+
+}
+
+.contacto{
+text-align: center;
+
+}
+
+
+/*-------------contacto--------------*/
+
+
+
+#formulario{
+    height: 100vw;
+    background-color: #b09e80;
+    height: 685px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    position: relative;
+    bottom: 20px;
+    }
+    
+    #formulario form{
+    font-family: monospace;
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+    position: relative;
+    top: 50px;
+    
+    }
+    
+    
+    #formulario form h2{
+    
+    
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+    
+    
+    }
+    
+    
+    
+    #formulario form input{
+    
+    
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    
+    
+    }
+    
+    #formulario textarea{
+    
+    
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    border: none;
+    
+    
+    min-height: 100px;
+    min-height: 200px;
+    max-width: 100%;
+    
+    }
+    
+    #boton{
+    
+    
+    background: #192537;
+    color: #fff;
+    
+    
+    }
+    
+    #boton:hover{
+    color: #b09e80;
+    cursor: pointer;
+    
+    
+    }
+    
+    
+    @media (max-width:480px;){
+    
+    }
+    
+
+/*------------------local-------------------------------*/
+
+.local{
+background-color: #192537;
+border: #b09e80 2px solid;
+height: 556px;
+
+}
+
+
+
+.encontranos{
+text-align: center;
+color: #b09e80;
+font-size: 20px;
+text-decoration:underline;
+}
+
+.mapa{
+
+    text-align: center;
+    margin: 10px;
+border: #b09e80 5px solid;
+
+
+}
+
+
+
+.ptfinal{
+    background-color: #192537;
+height: 150px;
+
+}
+
+.otros-puntos{
+    color: #b09e80;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pts{
+color: #fff;
+text-align: center;
+font-size: 20px;
+
+}
+
+
+/*-------------ayuda--------------*/
+
+.ayuda{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #192537;
+border: #fff 2px solid;
+height: 689px;
+}
+
+.ayuda h2{
+    text-align: center;
+    color: #b09e80;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.ayuda h3{
+color: #fff;
+font-size: 20px;
+position: relative;
+top: 70px;
+left: 150px;
+
+}
+
+.ayuda h4{
+color: #fff;
+font-size: 15px;
+position: relative;
+top: 90px;
+left: 140px;
+margin: 10px;
+
+}
+
+.ayuda h5{
+color: #b09e80;
+font-size: 20px;
+position: relative;
+top: 100px;
+left: 150px;
+text-decoration: underline;
+}
+
+.correo-imaggen a img{
+    height: 40px;
+    position: relative;
+    left: 170px;
+    top: 100px;
+    }
+    
+    .imaggen-telefono img{
+    height: 35px;
+    position: relative;
+    left: 175px;
+    top: 100px;
+    }
+    
+     .ayuda div h6{
+    font-size: 15px;
+    position: relative;
+    left: 220px;
+    top: 70px;
+    text-decoration: underline;
+    color: #fff;
+    }
+    
+
+.espacio-relleno{
+    height: 80px;
+    background-color: #192537;
+   
+}
+
+
+
+
+.img-modelo-ayuda{
+    border: #ffffff 2px solid;
+    width: 336px;
+    height: 580px;
+    position: relative;
+    left: 1000px;
+    bottom: 400px;
+}
+
+
+.img-modelo-ayuda p{
+   color: #fff;
+    position: relative;
+    left: 76px;
+}
+
+
+.img-modelo-ayuda img{
+height: 500px;
+
+}
+
+.img-modelo-ayuda a{
+position: relative;
+left: 125px;
+top: 10px;
+color: #192537;
+background-color: #fff;
+text-decoration: none;
+padding: 5px 10px 5px 10px;
+}
+
+
+/*---------------------tienda-------------------------*/
+
+
+
+
+.productos-uno div img{
+
+    width: 200px;
+    height: 250px;
+
+
+}
+
+.pr h2{
+text-align: center;
+color: #192537;
+text-decoration: underline;
+
+}
+
+.productos-uno div{
+margin: 60px;
+    display: flex;
+    display: inline-block;
+    position: relative;
+    left: 62px;
+border: #192537 2px solid;
+padding: 0px 0px 20px 0px;
+}
+
+.productos-uno div h4{
+text-align: center;
+color: #192537;
+
+}
+
+.productos-uno div a{
+background-color: #192537;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+position: relative;
+top: 10px;
+left: 52px;
+}
+
+
+
+.productos-dos div img{
+
+    width: 200px;
+    height: 250px;
+}
+
+.productos-dos div{
+    margin: 60px;
+        display: flex;
+        display: inline-block;
+        position: relative;
+        left: 62px;
+    border: #192537 2px solid;
+    padding: 0px 0px 20px 0px;
+    }
+    
+    .productos-dos div h4{
+    text-align: center;
+    color: #192537;
+    
+    }
+    
+    .productos-dos div a{
+    background-color: #192537;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 52px;
+    }
+
+
+.ver-mas{
+text-align: center;
+font-size: 20px;
+color: #192537;
+text-decoration: underline;
+
+}
+
+
+
+/*----------------------------------tamaños--------------------------------------------*/
+
+
+
+/*animaciones*/
+
+#info{
+transition-duration: 3s;
+transition-timing-function: ease-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
